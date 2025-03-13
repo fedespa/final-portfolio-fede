@@ -2,8 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowDown, Code, Github, Linkedin, Twitter } from "lucide-react";
-import Link from "next/link";
+import { ArrowDown, Code, Github, Twitter, Instagram } from "lucide-react";
 import Image from "next/image";
 import TechSlider from "@/components/tech-slider";
 
@@ -77,27 +76,27 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <Link
-                href="https://github.com"
+              <a
+                href="https://www.instagram.com/fedespa._/"
+                target="_blank"
+                className="rounded-full bg-white/10 p-3 transition-colors hover:bg-white/20"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+              <a
+                href="https://github.com/fedespa"
                 target="_blank"
                 className="rounded-full bg-white/10 p-3 transition-colors hover:bg-white/20"
               >
                 <Github className="h-5 w-5" />
-              </Link>
-              <Link
-                href="https://linkedin.com"
-                target="_blank"
-                className="rounded-full bg-white/10 p-3 transition-colors hover:bg-white/20"
-              >
-                <Linkedin className="h-5 w-5" />
-              </Link>
-              <Link
+              </a>
+              <a
                 href="https://twitter.com"
                 target="_blank"
                 className="rounded-full bg-white/10 p-3 transition-colors hover:bg-white/20"
               >
                 <Twitter className="h-5 w-5" />
-              </Link>
+              </a>
             </motion.div>
           </motion.div>
         </div>
