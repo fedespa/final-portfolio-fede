@@ -14,7 +14,6 @@ export default function Home() {
   });
 
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-//   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
 
   return (
     <main className="flex min-h-screen flex-col items-center bg-black text-white">
@@ -149,7 +148,7 @@ export default function Home() {
               >
                 <div className="absolute inset-0 z-0 bg-gradient-to-br from-purple-500/20 to-cyan-500/20 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
 
-                <div className="relative z-10 flex h-full flex-col rounded-lg bg-black p-6">
+                <div className="relative z-10 flex h-full flex-col rounded-xl bg-black p-6">
                   <div className="mb-4 flex-1">
                     <h3 className="mb-2 text-xl font-bold">{project.title}</h3>
                     <p className="text-sm text-zinc-400">
@@ -263,6 +262,14 @@ export default function Home() {
 
 // Sample data
 const projects = [
+  {
+    id: 3,
+    title: "Video Editor Portfolio",
+    description:
+      "A dynamic and visually engaging portfolio website designed for a professional video editor. Showcases editing projects, demo reels, and post-production expertise with smooth animations and an intuitive UI.",
+    technologies: ["Next.js", "React", "Framer Motion", "TypeScript"],
+    link: "https://video-editor-sooty-one.vercel.app/", // Reemplázalo con el enlace real
+  },
   {
     id: 1,
     title: "Gym Website",
