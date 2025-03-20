@@ -5,6 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown, Code, Github, Twitter, Instagram } from "lucide-react";
 import Image from "next/image";
 import TechSlider from "@/components/tech-slider";
+import { TECH_MAPPING } from "@/lib/constants";
 
 export default function Home() {
   const ref = useRef(null);
@@ -161,7 +162,8 @@ export default function Home() {
                       {project.technologies.map((tech) => (
                         <span
                           key={tech}
-                          className="rounded-full bg-white/10 px-3 py-1 text-xs"
+                          className={`rounded-full bg-white/10 px-3 py-1 text-xs`}
+                           style={TECH_MAPPING[tech]}
                         >
                           {tech}
                         </span>
@@ -263,12 +265,26 @@ export default function Home() {
 // Sample data
 const projects = [
   {
+    id: 4,
+    title: "Luxury Restaurant Website",
+    description:
+      "A high-end restaurant website featuring a visually stunning design, elegant typography, and smooth animations. Includes sections for the menu, chef’s special dishes, reservation system, and customer testimonials.",
+    technologies: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Framer Motion",
+      "TypeScript",
+    ],
+    link: "https://restaurante-pied-iota.vercel.app/", 
+  },
+  {
     id: 3,
     title: "Video Editor Portfolio",
     description:
       "A dynamic and visually engaging portfolio website designed for a professional video editor. Showcases editing projects, demo reels, and post-production expertise with smooth animations and an intuitive UI.",
     technologies: ["Next.js", "React", "Framer Motion", "TypeScript"],
-    link: "https://video-editor-sooty-one.vercel.app/", // Reemplázalo con el enlace real
+    link: "https://video-editor-sooty-one.vercel.app/", 
   },
   {
     id: 1,
@@ -276,7 +292,7 @@ const projects = [
     description:
       "A modern and dynamic website for a gym, featuring class schedules, membership plans, and a blog for fitness tips.",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    link: "https://gym-web-mauve.vercel.app/", // Reemplázalo con el enlace real
+    link: "https://gym-web-mauve.vercel.app/", 
   },
   {
     id: 2,
@@ -284,10 +300,9 @@ const projects = [
     description:
       "A sleek and interactive personal portfolio showcasing my projects, skills, and experience as a web developer.",
     technologies: ["Next.js", "React", "Framer Motion", "TypeScript"],
-    link: "https://portfolio-personal-eight-lemon.vercel.app/", // Reemplázalo con el enlace real
+    link: "https://portfolio-personal-eight-lemon.vercel.app/", 
   },
 ];
-
 
 const technologies = [
   {
@@ -327,4 +342,3 @@ const technologies = [
       "Production-ready motion library for React to create fluid animations.",
   },
 ];
-
