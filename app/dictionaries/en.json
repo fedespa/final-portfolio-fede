@@ -1,0 +1,84 @@
+{
+  "title": { "text1": "Hi, I'm", "text2": "Fede" },
+  "description": "Full-stack developer specializing in modern web technologies",
+  "projects": {
+    "title": "Projects",
+    "description": "A showcase of my recent work using cutting-edge technologies",
+    "items": [
+      {
+        "id": 1,
+        "title": "Luxury Restaurant Website",
+        "description": "A high-end restaurant website featuring a visually stunning design, elegant typography, and smooth animations. Includes sections for the menu, chef’s special dishes, reservation system, and customer testimonials.",
+        "technologies": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "Framer Motion",
+          "TypeScript"
+        ],
+        "link": "https://restaurante-pied-iota.vercel.app/"
+      },
+      {
+        "id": 2,
+        "title": "Video Editor Portfolio",
+        "description": "A dynamic and visually engaging portfolio website designed for a professional video editor. Showcases editing projects, demo reels, and post-production expertise with smooth animations and an intuitive UI.",
+        "technologies": ["Next.js", "React", "Framer Motion", "TypeScript"],
+        "link": "https://video-editor-sooty-one.vercel.app/"
+      },{
+        "id": 3,
+        "title": "Gym Website",
+        "description": "A modern and dynamic website for a gym, featuring class schedules, membership plans, and a blog for fitness tips.",
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Framer Motion"
+        ],
+        "link": "https://gym-web-mauve.vercel.app/"
+      }, {
+        "id": 4,
+        "title": "Personal Portfolio",
+        "description": "A sleek and interactive personal portfolio showcasing my projects, skills, and experience as a web developer.",
+        "technologies": ["Next.js", "React", "Framer Motion", "TypeScript"],
+        "link": "https://portfolio-personal-eight-lemon.vercel.app/"
+      }
+    ],
+    "button": "View Project"
+  },
+  "tech": {
+    "title": "Technologies",
+    "description": "The tools and frameworks I use to bring ideas to life",
+    "technologies": [
+      {
+        "name": "Next.js",
+        "icon": "/icons/nextjs-icon.png",
+        "description": "React framework for production-grade applications with server-side rendering and static site generation."
+      },
+      {
+        "name": "React",
+        "icon": "/icons/react-icon.png",
+        "description": "JavaScript library for building user interfaces with reusable components."
+      },
+      {
+        "name": "TypeScript",
+        "icon": "/icons/typescript-icon.png",
+        "description": "Strongly typed programming language that builds on JavaScript for better tooling."
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/icons/tailwind-icon.png",
+        "description": "Utility-first CSS framework for rapidly building custom user interfaces."
+      },
+      {
+        "name": "Node.js",
+        "icon": "/icons/node-icon.png",
+        "description": "JavaScript runtime built on Chrome's V8 JavaScript engine for server-side applications."
+      },
+      {
+        "name": "Framer Motion",
+        "icon": "/icons/framer-motion-icon.png",
+        "description": "Production-ready motion library for React to create fluid animations."
+      }
+    ]
+  }
+}

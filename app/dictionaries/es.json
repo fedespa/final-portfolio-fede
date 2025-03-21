@@ -1,0 +1,86 @@
+{
+  "title": { "text1": "Hola Soy", "text2": "Fede" },
+  "description": "Desarrollador full-stack especializado en tecnologías web modernas",
+  "projects": {
+    "title": "Proyectos",
+    "description": "Una muestra de mis trabajos recientes usando tecnologías de vanguardia",
+    "items": [
+      {
+        "id": 1,
+        "title": "Sitio Web de Restaurante de Lujo",
+        "description": "Sitio web para un restaurante de alta gama con un diseño visualmente impactante, tipografía elegante y animaciones suaves. Incluye secciones para el menú, platos especiales del chef, sistema de reservas y testimonios de clientes.",
+        "technologies": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "Framer Motion",
+          "TypeScript"
+        ],
+        "link": "https://restaurante-pied-iota.vercel.app/"
+      },
+      {
+        "id": 2,
+        "title": "Portfolio de Editor de Video",
+        "description": "Un sitio portfolio dinámico y visualmente atractivo diseñado para un editor de video profesional. Muestra proyectos de edición, reels y experiencia en postproducción con animaciones fluidas y una interfaz intuitiva.",
+        "technologies": ["Next.js", "React", "Framer Motion", "TypeScript"],
+        "link": "https://video-editor-sooty-one.vercel.app/"
+      },
+      {
+        "id": 3,
+        "title": "Sitio Web de Gimnasio",
+        "description": "Un sitio web moderno y dinámico para un gimnasio, con horarios de clases, planes de membresía y un blog con consejos de fitness.",
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Framer Motion"
+        ],
+        "link": "https://gym-web-mauve.vercel.app/"
+      },
+      {
+        "id": 4,
+        "title": "Portfolio Personal",
+        "description": "Un portfolio personal elegante e interactivo que muestra mis proyectos, habilidades y experiencia como desarrollador web.",
+        "technologies": ["Next.js", "React", "Framer Motion", "TypeScript"],
+        "link": "https://portfolio-personal-eight-lemon.vercel.app/"
+      }
+    ],
+    "button": "Ver Proyecto"
+  },
+  "tech": {
+    "title": "Tecnologías",
+    "description": "Las herramientas y frameworks que uso para dar vida a las ideas",
+    "technologies": [
+      {
+        "name": "Next.js",
+        "icon": "/icons/nextjs-icon.png",
+        "description": "Framework de React para aplicaciones listas para producción con renderizado del lado del servidor y generación de sitios estáticos."
+      },
+      {
+        "name": "React",
+        "icon": "/icons/react-icon.png",
+        "description": "Librería de JavaScript para construir interfaces de usuario con componentes reutilizables."
+      },
+      {
+        "name": "TypeScript",
+        "icon": "/icons/typescript-icon.png",
+        "description": "Lenguaje de programación fuertemente tipado que amplía JavaScript para un mejor soporte de herramientas."
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/icons/tailwind-icon.png",
+        "description": "Framework CSS basado en utilidades para construir interfaces personalizadas de forma rápida."
+      },
+      {
+        "name": "Node.js",
+        "icon": "/icons/node-icon.png",
+        "description": "Entorno de ejecución de JavaScript basado en el motor V8 de Chrome para aplicaciones del lado del servidor."
+      },
+      {
+        "name": "Framer Motion",
+        "icon": "/icons/framer-motion-icon.png",
+        "description": "Librería de animaciones lista para producción en React para crear transiciones y movimientos fluidos."
+      }
+    ]
+  }
+}

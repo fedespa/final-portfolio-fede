@@ -6,8 +6,13 @@ import { ArrowDown, Code, Github, Twitter, Instagram } from "lucide-react";
 import Image from "next/image";
 import TechSlider from "@/components/tech-slider";
 import { TECH_MAPPING } from "@/lib/constants";
+import { WebsiteContent } from "@/interfaces";
 
-export default function Home() {
+interface Props {
+  content: WebsiteContent
+}
+
+export default function Home({ content } : Props) {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -55,9 +60,9 @@ export default function Home() {
             </motion.div>
 
             <motion.h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-              <span className="block">Hi, I&apos;m </span>
+              <span className="block">{content.title.text1}</span>
               <span className="mt-2 block bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
-                Fede
+                {content.title.text2}
               </span>
             </motion.h1>
 
@@ -67,7 +72,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Full-stack developer specializing in modern web technologies
+              {content.description}
             </motion.p>
 
             <motion.div
@@ -129,16 +134,16 @@ export default function Home() {
           >
             <h2 className="mb-4 text-3xl font-bold sm:text-4xl md:text-5xl">
               <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
-                Projects
+                {content.projects.title}
               </span>
             </h2>
             <p className="mx-auto max-w-2xl text-zinc-400">
-              A showcase of my recent work using cutting-edge technologies
+              {content.projects.description}
             </p>
           </motion.div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {projects.map((project, index) => (
+            {content.projects.items.map((project, index) => (
               <motion.div
                 key={project.id}
                 initial={{ opacity: 0, y: 20 }}
@@ -175,7 +180,7 @@ export default function Home() {
                       target="_blank"
                       className="inline-flex items-center text-sm font-medium text-cyan-400 transition-colors hover:text-cyan-300"
                     >
-                      View Project
+                      {content.projects.button}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="ml-1 h-4 w-4"
@@ -211,11 +216,11 @@ export default function Home() {
           >
             <h2 className="mb-4 text-3xl font-bold sm:text-4xl md:text-5xl">
               <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
-                Technologies
+                {content.tech.title}
               </span>
             </h2>
             <p className="mx-auto max-w-2xl text-zinc-400">
-              The tools and frameworks I use to bring ideas to life
+              {content.tech.description}
             </p>
           </motion.div>
 
@@ -224,7 +229,7 @@ export default function Home() {
           </div>
 
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {technologies.map((tech, index) => (
+            {content.tech.technologies.map((tech, index) => (
               <motion.div
                 key={tech.name}
                 initial={{ opacity: 0, scale: 0.9 }}
@@ -261,84 +266,3 @@ export default function Home() {
     </main>
   );
 }
-
-// Sample data
-const projects = [
-  {
-    id: 4,
-    title: "Luxury Restaurant Website",
-    description:
-      "A high-end restaurant website featuring a visually stunning design, elegant typography, and smooth animations. Includes sections for the menu, chef’s special dishes, reservation system, and customer testimonials.",
-    technologies: [
-      "Next.js",
-      "React",
-      "Tailwind CSS",
-      "Framer Motion",
-      "TypeScript",
-    ],
-    link: "https://restaurante-pied-iota.vercel.app/", 
-  },
-  {
-    id: 3,
-    title: "Video Editor Portfolio",
-    description:
-      "A dynamic and visually engaging portfolio website designed for a professional video editor. Showcases editing projects, demo reels, and post-production expertise with smooth animations and an intuitive UI.",
-    technologies: ["Next.js", "React", "Framer Motion", "TypeScript"],
-    link: "https://video-editor-sooty-one.vercel.app/", 
-  },
-  {
-    id: 1,
-    title: "Gym Website",
-    description:
-      "A modern and dynamic website for a gym, featuring class schedules, membership plans, and a blog for fitness tips.",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    link: "https://gym-web-mauve.vercel.app/", 
-  },
-  {
-    id: 2,
-    title: "Personal Portfolio",
-    description:
-      "A sleek and interactive personal portfolio showcasing my projects, skills, and experience as a web developer.",
-    technologies: ["Next.js", "React", "Framer Motion", "TypeScript"],
-    link: "https://portfolio-personal-eight-lemon.vercel.app/", 
-  },
-];
-
-const technologies = [
-  {
-    name: "Next.js",
-    icon: "/icons/nextjs-icon.png",
-    description:
-      "React framework for production-grade applications with server-side rendering and static site generation.",
-  },
-  {
-    name: "React",
-    icon: "/icons/react-icon.png",
-    description:
-      "JavaScript library for building user interfaces with reusable components.",
-  },
-  {
-    name: "TypeScript",
-    icon: "/icons/typescript-icon.png",
-    description:
-      "Strongly typed programming language that builds on JavaScript for better tooling.",
-  },
-  {
-    name: "Tailwind CSS",
-    icon: "/icons/tailwind-icon.png",
-    description:
-      "Utility-first CSS framework for rapidly building custom user interfaces.",
-  },
-  {
-    name: "Node.js",
-    icon: "/icons/node-icon.png",
-    description:
-      "JavaScript runtime built on Chrome's V8 JavaScript engine for server-side applications.",
-  },
-  {
-    name: "Framer Motion",
-    icon: "/icons/framer-motion-icon.png",
-    description:
-      "Production-ready motion library for React to create fluid animations.",
-  },
-];
