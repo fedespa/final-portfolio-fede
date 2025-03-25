@@ -7,6 +7,13 @@
     "items": [
       {
         "id": 1,
+        "title": "Professional Outdoor Services Website",
+        "description": "A sleek, professional website for a Calgary-based outdoor services company, showcasing lawn care, seasonal cleanup, and property maintenance. Emphasizes 6+ years of experience, eco-friendly practices, and fully insured, customized service.",
+        "technologies": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+        "link": "https://www.wizardsoutdoorservices.com/"
+      },
+      {
+        "id": 2,
         "title": "Luxury Restaurant Website",
         "description": "A high-end restaurant website featuring a visually stunning design, elegant typography, and smooth animations. Includes sections for the menu, chef’s special dishes, reservation system, and customer testimonials.",
         "technologies": [
@@ -19,12 +26,6 @@
         "link": "https://restaurante-pied-iota.vercel.app/"
       },
       {
-        "id": 2,
-        "title": "Video Editor Portfolio",
-        "description": "A dynamic and visually engaging portfolio website designed for a professional video editor. Showcases editing projects, demo reels, and post-production expertise with smooth animations and an intuitive UI.",
-        "technologies": ["Next.js", "React", "Framer Motion", "TypeScript"],
-        "link": "https://video-editor-sooty-one.vercel.app/"
-      },{
         "id": 3,
         "title": "Gym Website",
         "description": "A modern and dynamic website for a gym, featuring class schedules, membership plans, and a blog for fitness tips.",
@@ -35,13 +36,15 @@
           "Framer Motion"
         ],
         "link": "https://gym-web-mauve.vercel.app/"
-      }, {
+      },
+      {
         "id": 4,
-        "title": "Personal Portfolio",
-        "description": "A sleek and interactive personal portfolio showcasing my projects, skills, and experience as a web developer.",
+        "title": "Video Editor Portfolio",
+        "description": "A dynamic and visually engaging portfolio website designed for a professional video editor. Showcases editing projects, demo reels, and post-production expertise with smooth animations and an intuitive UI.",
         "technologies": ["Next.js", "React", "Framer Motion", "TypeScript"],
-        "link": "https://portfolio-personal-eight-lemon.vercel.app/"
+        "link": "https://video-editor-sooty-one.vercel.app/"
       }
+      
     ],
     "button": "View Project"
   },

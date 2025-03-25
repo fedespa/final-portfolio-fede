@@ -35,7 +35,7 @@ export default function LanguageSwitcher({ initialLanguage } : Props) {
       {/* Botón principal */}
       <button
         onClick={toggleDropdown}
-        className="px-4 py-2 rounded shadow hover:bg-black/90 transition flex items-center space-x-2 text-white bg-black hover:scale-105 hover:border"
+        className="px-4 py-2 rounded shadow hover:bg-black/90 transition flex items-center space-x-2 text-white bg-black border border-transparent hover:border-white duration-150"
       >
         <Image
           src={currentLang!.flag}

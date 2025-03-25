@@ -7,6 +7,13 @@
     "items": [
       {
         "id": 1,
+        "title": "Sitio Web de Servicios de Jardinería y Mantenimiento Exterior",
+        "description": "Sitio web moderno y profesional para una empresa de servicios exteriores en Calgary. Destaca el cuidado del césped, limpieza estacional y mantenimiento de propiedades, con más de 6 años de experiencia, prácticas ecológicas y servicios personalizados con garantía.",
+        "technologies": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+        "link": "https://www.wizardsoutdoorservices.com/"
+      },
+      {
+        "id": 2,
         "title": "Sitio Web de Restaurante de Lujo",
         "description": "Sitio web para un restaurante de alta gama con un diseño visualmente impactante, tipografía elegante y animaciones suaves. Incluye secciones para el menú, platos especiales del chef, sistema de reservas y testimonios de clientes.",
         "technologies": [
@@ -17,13 +24,6 @@
           "TypeScript"
         ],
         "link": "https://restaurante-pied-iota.vercel.app/"
-      },
-      {
-        "id": 2,
-        "title": "Portfolio de Editor de Video",
-        "description": "Un sitio portfolio dinámico y visualmente atractivo diseñado para un editor de video profesional. Muestra proyectos de edición, reels y experiencia en postproducción con animaciones fluidas y una interfaz intuitiva.",
-        "technologies": ["Next.js", "React", "Framer Motion", "TypeScript"],
-        "link": "https://video-editor-sooty-one.vercel.app/"
       },
       {
         "id": 3,
@@ -39,11 +39,12 @@
       },
       {
         "id": 4,
-        "title": "Portfolio Personal",
-        "description": "Un portfolio personal elegante e interactivo que muestra mis proyectos, habilidades y experiencia como desarrollador web.",
+        "title": "Portfolio de Editor de Video",
+        "description": "Un sitio portfolio dinámico y visualmente atractivo diseñado para un editor de video profesional. Muestra proyectos de edición, reels y experiencia en postproducción con animaciones fluidas y una interfaz intuitiva.",
         "technologies": ["Next.js", "React", "Framer Motion", "TypeScript"],
-        "link": "https://portfolio-personal-eight-lemon.vercel.app/"
+        "link": "https://video-editor-sooty-one.vercel.app/"
       }
+      
     ],
     "button": "Ver Proyecto"
   },

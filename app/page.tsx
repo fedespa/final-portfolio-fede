@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 
 export default function HomePage() {
-  redirect("/es");
+  redirect("/en");
   return null;
 }
