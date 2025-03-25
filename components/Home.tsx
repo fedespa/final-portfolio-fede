@@ -82,6 +82,18 @@ export default function Home({ content } : Props) {
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <a
+                href="https://wa.me/541151070290"
+                target="_blank"
+                className="rounded-full bg-white/10 p-3 transition-colors hover:bg-white/20"
+              >
+                <Image
+                  src={"/icons/whatsapp.png"}
+                  alt="Whatsapp Icon"
+                  width={20}
+                  height={20}
+                />
+              </a>
+              <a
                 href="https://www.instagram.com/fedespa._/"
                 target="_blank"
                 className="rounded-full bg-white/10 p-3 transition-colors hover:bg-white/20"
@@ -168,7 +180,7 @@ export default function Home({ content } : Props) {
                         <span
                           key={tech}
                           className={`rounded-full bg-white/10 px-3 py-1 text-xs`}
-                           style={TECH_MAPPING[tech]}
+                          style={TECH_MAPPING[tech]}
                         >
                           {tech}
                         </span>
