@@ -7,12 +7,13 @@ import Image from "next/image";
 import TechSlider from "@/components/tech-slider";
 import { TECH_MAPPING } from "@/lib/constants";
 import { WebsiteContent } from "@/interfaces";
+import { FlipText } from "./magicui/flip-text";
 
 interface Props {
-  content: WebsiteContent
+  content: WebsiteContent;
 }
 
-export default function Home({ content } : Props) {
+export default function Home({ content }: Props) {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -61,9 +62,12 @@ export default function Home({ content } : Props) {
 
             <motion.h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
               <span className="block">{content.title.text1}</span>
-              <span className="mt-2 block bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
+              <FlipText
+                className="mt-2 block bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight"
+                duration={1}
+              >
                 {content.title.text2}
-              </span>
+              </FlipText>
             </motion.h1>
 
             <motion.p
@@ -168,10 +172,21 @@ export default function Home({ content } : Props) {
 
                 <div className="relative z-10 flex h-full flex-col rounded-xl bg-black p-6">
                   <div className="mb-4 flex-1">
-                    <h3 className="mb-2 text-xl font-bold">{project.title}</h3>
+                    <h3 className="mb-2 text-xl font-bold text-pre">
+                      {project.title}
+                    </h3>
                     <p className="text-sm text-zinc-400">
                       {project.description}
                     </p>
+                  </div>
+
+                  <div className="relative h-48 w-full overflow-hidden rounded-xl border border-transparent hover:border-white duration-300">
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill={true}
+                      className="object-cover rounded-xl hover:scale-110 duration-200"
+                    />
                   </div>
 
                   <div className="mt-4">

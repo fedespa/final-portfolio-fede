@@ -4,18 +4,19 @@
   "projects": {
     "title": "Projects",
     "description": "A showcase of my recent work using cutting-edge technologies",
-    "items": [
+    "items":[
       {
         "id": 1,
         "title": "Professional Outdoor Services Website",
-        "description": "A sleek, professional website for a Calgary-based outdoor services company, showcasing lawn care, seasonal cleanup, and property maintenance. Emphasizes 6+ years of experience, eco-friendly practices, and fully insured, customized service.",
+        "description": "A clean website for a Calgary lawn care company, highlighting experience and eco-friendly service.",
         "technologies": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
-        "link": "https://www.wizardsoutdoorservices.com/"
+        "link": "https://www.wizardsoutdoorservices.com/",
+        "image": "/projects/wizards.png"
       },
       {
         "id": 2,
         "title": "Luxury Restaurant Website",
-        "description": "A high-end restaurant website featuring a visually stunning design, elegant typography, and smooth animations. Includes sections for the menu, chef’s special dishes, reservation system, and customer testimonials.",
+        "description": "Elegant site for a high-end restaurant with smooth animations and reservation features.",
         "technologies": [
           "Next.js",
           "React",
@@ -23,29 +24,32 @@
           "Framer Motion",
           "TypeScript"
         ],
-        "link": "https://restaurante-pied-iota.vercel.app/"
+        "link": "https://restaurante-pied-iota.vercel.app/",
+        "image": "/projects/restaurant.png"
       },
       {
         "id": 3,
         "title": "Gym Website",
-        "description": "A modern and dynamic website for a gym, featuring class schedules, membership plans, and a blog for fitness tips.",
+        "description": "Modern gym website with class schedules, membership plans, and fitness blog.",
         "technologies": [
           "Next.js",
           "TypeScript",
           "Tailwind CSS",
           "Framer Motion"
         ],
-        "link": "https://gym-web-mauve.vercel.app/"
+        "link": "https://gym-web-mauve.vercel.app/",
+        "image": "/projects/gym.png"
       },
       {
         "id": 4,
         "title": "Video Editor Portfolio",
-        "description": "A dynamic and visually engaging portfolio website designed for a professional video editor. Showcases editing projects, demo reels, and post-production expertise with smooth animations and an intuitive UI.",
+        "description": "A bold portfolio for a video editor featuring projects, reels, and smooth animations.",
         "technologies": ["Next.js", "React", "Framer Motion", "TypeScript"],
-        "link": "https://video-editor-sooty-one.vercel.app/"
+        "link": "https://video-editor-sooty-one.vercel.app/",
+        "image": "/projects/portfolio.png"
       }
-      
-    ],
+    ]
+,
     "button": "View Project"
   },
   "tech": {

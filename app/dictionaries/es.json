@@ -4,48 +4,52 @@
   "projects": {
     "title": "Proyectos",
     "description": "Una muestra de mis trabajos recientes usando tecnologías de vanguardia",
-    "items": [
-      {
-        "id": 1,
-        "title": "Sitio Web de Servicios de Jardinería y Mantenimiento Exterior",
-        "description": "Sitio web moderno y profesional para una empresa de servicios exteriores en Calgary. Destaca el cuidado del césped, limpieza estacional y mantenimiento de propiedades, con más de 6 años de experiencia, prácticas ecológicas y servicios personalizados con garantía.",
-        "technologies": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
-        "link": "https://www.wizardsoutdoorservices.com/"
-      },
-      {
-        "id": 2,
-        "title": "Sitio Web de Restaurante de Lujo",
-        "description": "Sitio web para un restaurante de alta gama con un diseño visualmente impactante, tipografía elegante y animaciones suaves. Incluye secciones para el menú, platos especiales del chef, sistema de reservas y testimonios de clientes.",
-        "technologies": [
-          "Next.js",
-          "React",
-          "Tailwind CSS",
-          "Framer Motion",
-          "TypeScript"
-        ],
-        "link": "https://restaurante-pied-iota.vercel.app/"
-      },
-      {
-        "id": 3,
-        "title": "Sitio Web de Gimnasio",
-        "description": "Un sitio web moderno y dinámico para un gimnasio, con horarios de clases, planes de membresía y un blog con consejos de fitness.",
-        "technologies": [
-          "Next.js",
-          "TypeScript",
-          "Tailwind CSS",
-          "Framer Motion"
-        ],
-        "link": "https://gym-web-mauve.vercel.app/"
-      },
-      {
-        "id": 4,
-        "title": "Portfolio de Editor de Video",
-        "description": "Un sitio portfolio dinámico y visualmente atractivo diseñado para un editor de video profesional. Muestra proyectos de edición, reels y experiencia en postproducción con animaciones fluidas y una interfaz intuitiva.",
-        "technologies": ["Next.js", "React", "Framer Motion", "TypeScript"],
-        "link": "https://video-editor-sooty-one.vercel.app/"
-      }
-      
-    ],
+    "items": 
+     [
+       {
+         "id": 1,
+         "title": "Sitio Web de Mantenimiento Exterior",
+         "description": "Sitio moderno para empresa de jardinería en Calgary, destacando experiencia y servicio ecológico.",
+         "technologies": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+         "link": "https://www.wizardsoutdoorservices.com/",
+         "image": "/projects/wizards.png"
+       },
+       {
+         "id": 2,
+         "title": "Sitio Web de Restaurante de Lujo",
+         "description": "Web elegante para restaurante de alta gama con animaciones suaves y sistema de reservas.",
+         "technologies": [
+           "Next.js",
+           "React",
+           "Tailwind CSS",
+           "Framer Motion",
+           "TypeScript"
+         ],
+         "link": "https://restaurante-pied-iota.vercel.app/",
+         "image": "/projects/restaurant.png"
+       },
+       {
+         "id": 3,
+         "title": "Sitio Web de Gimnasio",
+         "description": "Sitio moderno para gimnasio con horarios, planes de membresía y blog de fitness.",
+         "technologies": [
+           "Next.js",
+           "TypeScript",
+           "Tailwind CSS",
+           "Framer Motion"
+         ],
+         "link": "https://gym-web-mauve.vercel.app/",
+         "image": "/projects/gym.png"
+       },
+       {
+         "id": 4,
+         "title": "Portfolio de Editor de Video",
+         "description": "Portafolio llamativo para editor de video, con proyectos, reels y animaciones fluidas.",
+         "technologies": ["Next.js", "React", "Framer Motion", "TypeScript"],
+         "link": "https://video-editor-sooty-one.vercel.app/",
+         "image": "/projects/portfolio.png"
+       }
+     ],
     "button": "Ver Proyecto"
   },
   "tech": {
