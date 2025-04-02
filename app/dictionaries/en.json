@@ -4,12 +4,18 @@
   "projects": {
     "title": "Projects",
     "description": "A showcase of my recent work using cutting-edge technologies",
-    "items":[
+    "items": [
       {
         "id": 1,
         "title": "Professional Outdoor Services Website",
         "description": "A clean website for a Calgary lawn care company, highlighting experience and eco-friendly service.",
-        "technologies": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+        "technologies": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "TypeScript",
+          "Framer Motion"
+        ],
         "link": "https://www.wizardsoutdoorservices.com/",
         "image": "/projects/wizards.png"
       },
@@ -42,14 +48,28 @@
       },
       {
         "id": 4,
+        "title": "Calnan Real Estate Group Website",
+        "description": "Corporate site for a Canadian real estate firm, highlighting investments and asset management services.",
+        "technologies": [
+          "Next.js",
+          "React",
+          "Framer Motion",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "link": "https://www.calnan.co/",
+        "image": "/projects/calnan.png"
+      },
+
+      {
+        "id": 5,
         "title": "Video Editor Portfolio",
         "description": "A bold portfolio for a video editor featuring projects, reels, and smooth animations.",
-        "technologies": ["Next.js", "React", "Framer Motion", "TypeScript"],
+        "technologies": ["Next.js", "React", "Sanity", "TypeScript", "Framer Motion"],
         "link": "https://video-editor-sooty-one.vercel.app/",
         "image": "/projects/portfolio.png"
       }
-    ]
-,
+    ],
     "button": "View Project"
   },
   "tech": {

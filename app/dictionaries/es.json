@@ -4,52 +4,71 @@
   "projects": {
     "title": "Proyectos",
     "description": "Una muestra de mis trabajos recientes usando tecnologías de vanguardia",
-    "items": 
-     [
-       {
-         "id": 1,
-         "title": "Sitio Web de Mantenimiento Exterior",
-         "description": "Sitio moderno para empresa de jardinería en Calgary, destacando experiencia y servicio ecológico.",
-         "technologies": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
-         "link": "https://www.wizardsoutdoorservices.com/",
-         "image": "/projects/wizards.png"
-       },
-       {
-         "id": 2,
-         "title": "Sitio Web de Restaurante de Lujo",
-         "description": "Web elegante para restaurante de alta gama con animaciones suaves y sistema de reservas.",
-         "technologies": [
-           "Next.js",
-           "React",
-           "Tailwind CSS",
-           "Framer Motion",
-           "TypeScript"
-         ],
-         "link": "https://restaurante-pied-iota.vercel.app/",
-         "image": "/projects/restaurant.png"
-       },
-       {
-         "id": 3,
-         "title": "Sitio Web de Gimnasio",
-         "description": "Sitio moderno para gimnasio con horarios, planes de membresía y blog de fitness.",
-         "technologies": [
-           "Next.js",
-           "TypeScript",
-           "Tailwind CSS",
-           "Framer Motion"
-         ],
-         "link": "https://gym-web-mauve.vercel.app/",
-         "image": "/projects/gym.png"
-       },
-       {
-         "id": 4,
-         "title": "Portfolio de Editor de Video",
-         "description": "Portafolio llamativo para editor de video, con proyectos, reels y animaciones fluidas.",
-         "technologies": ["Next.js", "React", "Framer Motion", "TypeScript"],
-         "link": "https://video-editor-sooty-one.vercel.app/",
-         "image": "/projects/portfolio.png"
-       }
-     ],
+    "items": [
+      {
+        "id": 1,
+        "title": "Sitio Web de Mantenimiento Exterior",
+        "description": "Sitio moderno para empresa de jardinería en Calgary, destacando experiencia y servicio ecológico.",
+        "technologies": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "TypeScript",
+          "Framer Motion"
+        ],
+        "link": "https://www.wizardsoutdoorservices.com/",
+        "image": "/projects/wizards.png"
+      },
+      {
+        "id": 2,
+        "title": "Sitio Web de Restaurante de Lujo",
+        "description": "Web elegante para restaurante de alta gama con animaciones suaves y sistema de reservas.",
+        "technologies": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "Framer Motion",
+          "TypeScript"
+        ],
+        "link": "https://restaurante-pied-iota.vercel.app/",
+        "image": "/projects/restaurant.png"
+      },
+      {
+        "id": 3,
+        "title": "Sitio Web de Gimnasio",
+        "description": "Sitio moderno para gimnasio con horarios, planes de membresía y blog de fitness.",
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Framer Motion"
+        ],
+        "link": "https://gym-web-mauve.vercel.app/",
+        "image": "/projects/gym.png"
+      },
+      {
+        "id": 4,
+        "title": "Sitio Web de Calnan Real Estate Group",
+        "description": "Sitio corporativo para firma inmobiliaria canadiense, destacando inversiones y gestión de activos.",
+        "technologies": [
+          "Next.js",
+          "React",
+          "Framer Motion",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "link": "https://www.calnan.co/",
+        "image": "/projects/calnan.png"
+      },
+      {
+        "id": 5,
+        "title": "Portfolio de Editor de Video",
+        "description": "Portafolio llamativo para editor de video, con proyectos, reels y animaciones fluidas.",
+        "technologies": ["Next.js", "React", "Sanity", "TypeScript", "Framer Motion"],
+        "link": "https://video-editor-sooty-one.vercel.app/",
+        "image": "/projects/portfolio.png"
+      }
+    ],
     "button": "Ver Proyecto"
   },
   "tech": {

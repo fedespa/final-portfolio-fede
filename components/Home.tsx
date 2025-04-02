@@ -48,9 +48,16 @@ export default function Home({ content }: Props) {
             className="text-center"
           >
             <motion.div
-              initial={{ scale: 0.8, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{ duration: 0.5 }}
+              initial={{ scale: 0.8, opacity: 0, rotate: 360 }}
+              animate={{ scale: 1, opacity: 1, rotate: 0 }}
+              transition={{
+                duration: 0.5,
+                rotate: { delay: 1, duration: 0.8 },
+              }}
+              whileHover={{
+                rotate: 360,
+                transition: { duration: 0.5, delay: 0 },
+              }}
               className="mb-6 inline-block rounded-full border border-white/10 bg-white/5 p-2 backdrop-blur-sm"
             >
               <div className="rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 p-px">
@@ -261,11 +268,16 @@ export default function Home({ content }: Props) {
                 key={tech.name}
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                transition={{
+                  duration: 0.5,
+                  delay: index * 0.1,
+                  rotate: { delay: 0 },
+                }}
+                whileHover={{ rotate: 4 }}
                 viewport={{ once: true }}
-                className="flex flex-col items-center rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm"
+                className="flex flex-col items-center rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm group"
               >
-                <div className="mb-4 rounded-full bg-gradient-to-r from-purple-500/20 to-cyan-500/20 p-4">
+                <div className="mb-4 rounded-full bg-gradient-to-r from-purple-500/20 to-cyan-500/20 p-4 border border-transparent group-hover:border-white duration-200">
                   <Image
                     src={tech.icon || "/placeholder.svg"}
                     alt={tech.name}
