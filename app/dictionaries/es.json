@@ -38,7 +38,8 @@
           "Next.js",
           "TypeScript",
           "Tailwind CSS",
-          "Framer Motion"
+          "Framer Motion",
+          "React"
         ],
         "link": "https://www.sonrayracing.com/",
         "image": "/projects/jake-miller-racing.png"
