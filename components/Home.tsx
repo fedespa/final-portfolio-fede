@@ -168,7 +168,7 @@ export default function Home({ content }: Props) {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {content.projects.items.map((project, index) => (
               <motion.div
-                key={project.id}
+                key={index}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}

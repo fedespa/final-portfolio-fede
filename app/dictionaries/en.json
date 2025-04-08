@@ -6,7 +6,6 @@
     "description": "A showcase of my recent work using cutting-edge technologies",
     "items": [
       {
-        "id": 1,
         "title": "Professional Outdoor Services Website",
         "description": "A clean website for a Calgary lawn care company, highlighting experience and eco-friendly service.",
         "technologies": [
@@ -20,7 +19,6 @@
         "image": "/projects/wizards.png"
       },
       {
-        "id": 2,
         "title": "Luxury Restaurant Website",
         "description": "Elegant site for a high-end restaurant with smooth animations and reservation features.",
         "technologies": [
@@ -34,7 +32,19 @@
         "image": "/projects/restaurant.png"
       },
       {
-        "id": 3,
+        "title": "Jake Miller Racing",
+        "description": "Official site for kart racer Jake Miller with race schedule, results, and sponsorship info.",
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Framer Motion"
+        ],
+        "link": "https://www.sonrayracing.com/",
+        "image": "/projects/jake-miller-racing.png"
+      },
+
+      {
         "title": "Gym Website",
         "description": "Modern gym website with class schedules, membership plans, and fitness blog.",
         "technologies": [
@@ -47,7 +57,6 @@
         "image": "/projects/gym.png"
       },
       {
-        "id": 4,
         "title": "Calnan Real Estate Group Website",
         "description": "Corporate site for a Canadian real estate firm, highlighting investments and asset management services.",
         "technologies": [
@@ -60,12 +69,16 @@
         "link": "https://www.calnan.co/",
         "image": "/projects/calnan.png"
       },
-
       {
-        "id": 5,
         "title": "Video Editor Portfolio",
         "description": "A bold portfolio for a video editor featuring projects, reels, and smooth animations.",
-        "technologies": ["Next.js", "React", "Sanity", "TypeScript", "Framer Motion"],
+        "technologies": [
+          "Next.js",
+          "React",
+          "Sanity",
+          "TypeScript",
+          "Framer Motion"
+        ],
         "link": "https://video-editor-sooty-one.vercel.app/",
         "image": "/projects/portfolio.png"
       }
