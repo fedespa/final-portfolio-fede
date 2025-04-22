@@ -6,6 +6,19 @@
     "description": "A showcase of my recent work using cutting-edge technologies",
     "items": [
       {
+        "title": "Telecommunications Solutions Website",
+        "description": "A modern website for an Australian telecom provider, showcasing advanced connectivity and tailored business services.",
+        "technologies": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "TypeScript",
+          "Framer Motion"
+        ],
+        "link": "https://www.rangetelecommunications.com.au/",
+        "image": "/projects/range-telecom.png"
+      },
+      {
         "title": "Professional Outdoor Services Website",
         "description": "A clean website for a Calgary lawn care company, highlighting experience and eco-friendly service.",
         "technologies": [
@@ -44,7 +57,6 @@
         "link": "https://www.sonrayracing.com/",
         "image": "/projects/jake-miller-racing.png"
       },
-
       {
         "title": "Gym Website",
         "description": "Modern gym website with class schedules, membership plans, and fitness blog.",

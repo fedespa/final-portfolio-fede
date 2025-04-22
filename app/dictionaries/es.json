@@ -6,6 +6,20 @@
     "description": "Una muestra de mis trabajos recientes usando tecnologías de vanguardia",
     "items": [
       {
+        "title": "Sitio Web de Soluciones en Telecomunicaciones",
+        "description": "Un sitio web moderno para un proveedor australiano de telecomunicaciones, que destaca conectividad avanzada y servicios empresariales a medida.",
+        "technologies": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "TypeScript",
+          "Framer Motion"
+        ],
+        "link": "https://www.rangetelecommunications.com.au/",
+        "image": "/projects/range-telecom.png"
+      },
+
+      {
         "title": "Sitio Web de Mantenimiento Exterior",
         "description": "Sitio moderno para empresa de jardinería en Calgary, destacando experiencia y servicio ecológico.",
         "technologies": [
@@ -44,7 +58,6 @@
         "link": "https://www.sonrayracing.com/",
         "image": "/projects/jake-miller-racing.png"
       },
-
       {
         "title": "Sitio Web de Gimnasio",
         "description": "Sitio moderno para gimnasio con horarios, planes de membresía y blog de fitness.",
